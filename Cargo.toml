@@ -1,0 +1,10 @@
+[package]
+name = "sample_dataframe"
+version = "0.1.0"
+authors = ["Tam <npt.dc@outlook.com>"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+polars = { version = "0.30.0", features = ["lazy","describe","json","parquet","dtype-datetime"]}
